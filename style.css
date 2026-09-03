@@ -1,0 +1,19 @@
+h1 { text-align: center; } 
+p {background-color: lightgray;}
+
+
+
+h3 {
+  color: rgba(4, 141, 11, 0.829);
+}
+
+
+.Pri {color: rgb(0, 0, 0); font-size: 20px; }
+
+#lista{ font-size: 18px; color: blueviolet;}
+
+body {
+    
+    background: #f0f0f0 url(back.jpg) center/cover no-repeat;
+    min-height: 100vh; 
+}
