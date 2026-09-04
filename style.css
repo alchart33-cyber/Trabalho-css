@@ -1,17 +1,47 @@
-h1 { text-align: center; } 
-p {background-color: lightgray;}
+h1 { text-align: center; } /*Alinhamento do h1 */
 
+/* Elemento id para estilizar a lista com as principais obras do autor*/ 
+#lista{ font-size: 18px; color: rgb(187, 18, 230); }
 
-
-h3 {
-  color: rgba(4, 141, 11, 0.829);
+/*Classe para estilizar a página */ 
+.est {margin: 20px auto;
+    padding: 24px;
+    width: 40%;
+    background: rgb(11, 187, 187);
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: solid;
+    font: bold;
+    color: rgb(0, 0, 0);
+  }
+ /*Pseudo-elemento destacando a primeira linha do texto */
+p::first-line {
+  color: rgb(12, 16, 223);
+  text-transform: uppercase;
 }
 
 
-.Pri {color: rgb(0, 0, 0); font-size: 20px; }
+  /*pseudo-classes para estilizar o link */  
 
-#lista{ font-size: 18px; color: blueviolet;}
+a:link {
+  color: blue; /* link não visitado */
+}
 
+a:visited {
+  color: purple; /* link visitado */
+}
+
+a:hover {
+  color: red; /* mouse passando */
+}
+
+a:active {
+  color: green; /* Clicando */
+}
+
+
+/* Tela de fundo*/
 body {
     
     background: #f0f0f0 url(back.jpg) center/cover no-repeat;
